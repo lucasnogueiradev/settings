@@ -1,0 +1,129 @@
+{
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx",
+    "typescript": "tsx",
+    "javascriptreact": "jsx",
+    "typescriptreact": "tsx"
+  },
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.fontSize": 20,
+  "javascript.suggest.autoImports": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "solid",
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 2,
+  "editor.detectIndentation": false,
+  "editor.fontWeight": "400",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.rulers": [
+    100,
+    120
+  ],
+  "editor.snippetSuggestions": "top",
+  "editor.wordWrap": "on",
+  "extensions.ignoreRecommendations": true,
+  "typescript.tsserver.log": "off",
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    "*.tsx": "typescriptreact",
+    ".env.*": "dotenv",
+    ".prettierrc": "json"
+  },
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.lineNumbers": "on",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.fixAll.tslint": "explicit",
+      "source.organizeImports": "explicit",
+      "source.fixAll": "explicit"
+    }
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    }
+  },
+  "editor.formatOnPaste": true,
+  "editor.parameterHints.enabled": false,
+  "editor.renderLineHighlight": "gutter",
+  "editor.lineHeight": 26,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "editor.suggestSelection": "first",
+  "explorer.confirmDelete": false,
+  "terminal.integrated.showExitAlert": false,
+  "[prisma]": {
+    "editor.formatOnSave": true
+  },
+  "typescript.suggest.autoImports": true,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "workbench.editor.labelFormat": "short",
+  "editor.fontLigatures": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "explorer.compactFolders": false,
+  "git.enableSmartCommit": true,
+  "editor.accessibilitySupport": "off",
+  "explorer.confirmDragAndDrop": false,
+  "terminal.integrated.fontSize": 17,
+  "terminal.integrated.fontWeight": "600",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.semanticHighlighting.enabled": false,
+  "breadcrumbs.enabled": true,
+  "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace",
+  "terminal.integrated.fontFamily": "monospace",
+  "terminal.integrated.fontLigatures": true,
+  "editor.tabSize": 2,
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/CVS": true
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.minimap.enabled": false,
+  "terminal.integrated.gpuAcceleration": "off",
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "workbench.colorCustomizations": {},
+  "editor.inlineSuggest.enabled": true,
+  "git.autofetch": true,
+  "[javascriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    }
+  },
+  "workbench.colorTheme": "Dracula Theme",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "security.workspace.trust.banner": "always",
+  "workbench.trustedDomains.promptInTrustedWorkspace": true,
+  "remote.SSH.configFile": "C:\\Users\\dev\\.ssh\\code_gitpod.d\\config",
+  "remote.SSH.remoteServerListenOnSocket": true,
+  "remote.SSH.path": "C:\\Windows\\System32\\OpenSSH\\ssh.exe",
+  "terminal.external.windowsExec": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "remote.SSH.enableRemoteCommand": true,
+  "remote.SSH.externalSSH_ASKPASS": true,
+  "remote.SSH.showLoginTerminal": true,
+  "remote.SSH.remotePlatform": {
+    "*.gitpod.io": "linux"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "terminal.integrated.env.windows": {},
+  "console-ninja.featureSet": "Community",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "terminal.integrated.sendKeybindingsToShell": true
+}
